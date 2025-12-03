@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Mi Página</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cv.html">Curriculum</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="carrusel-container">
+
+    <button class="btn-nav left" id="btnPrev">❮</button>
+
+    <div class="carrusel-fade">
+        <img class="img-slide active" src="https://picsum.photos/900/500?random=1">
+        <img class="img-slide" src="https://picsum.photos/900/500?random=2">
+        <img class="img-slide" src="https://picsum.photos/900/500?random=3">
+    </div>
+
+    <button class="btn-nav right" id="btnNext">❯</button>
+
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
